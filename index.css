@@ -1,0 +1,19 @@
+.preview {
+    width: 1440px;
+    height: 765px;
+    background: url(/img/background-preview.jpg);
+}
+.header {
+    background-color: #F2785C ;
+    opacity: 0.7;
+    height: 90px;
+}
+.nav-list-item {
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-list-item:hover {
+    font-size: 150%;
+    color: red;
+}
