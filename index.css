@@ -1,19 +1,61 @@
+
+/* Preview section */
 .preview {
     width: 1440px;
     height: 765px;
     background: url(/img/background-preview.jpg);
 }
+/* header */
 .header {
-    background-color: #F2785C ;
-    opacity: 0.7;
+    background-color: rgba(242, 120, 92, 0.7) ;
     height: 90px;
+    display: flex;
+}
+.logo {
+    width: 216px;
+    height: 31px;
+    margin-left: 120px;
+    margin-top: 25px;
+}
+.logo-img {
+    width: 30px;
+    height: 30px;
+}
+.logo-name {
+    font-family: Magra, sans-serif;
+    font-size: 32px;
+    color: white;
+    text-align: left;
+    margin-left: 6px;
+}
+.nav-list {
+    margin: 35px 0 0 158px;
 }
 .nav-list-item {
     text-decoration: none;
     color: black;
-    
+    margin-left: 42px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: white;
 }
-.nav-list-item:hover {
-    font-size: 150%;
-    color: red;
+.nav-list-item:first-child {
+    margin-left: 0px;
 }
+.nav-button {
+    width: 103px;
+    height: 41px;
+    margin-top: 25px;
+    margin-left: 196px;
+    background-color: #0D606F;
+    border: #0D606F;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 21px;
+
+}
+
