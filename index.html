@@ -17,36 +17,80 @@
 
     <title>Document</title>
 </head>
-<body>
-    <section class="preview">
-        <header class="header">
-                <nav class="logo">
-                 <img class="logo-img" src="/icon/logo.svg" alt="logo">
-                 <span class="logo-name">Travel Portal</span>
-                </nav>
-                <nav>
-                    <div class="nav-list">
-                        <a class="nav-list-item" href="#">How It Works</a>
-                        <a class="nav-list-item" href="#">Plan Your Trip</a>
-                        <a class="nav-list-item" href="#">Destinations</a>
-                        <a class="nav-list-item" href="#">Travel Stories</a>
-                    </div>
-                </nav>
-                <button type="button" class="nav-button">
-                    <span class="nav-button-text">Login</span>
-                </button>
-        </header>
-        <div class="preview-element">
-            <h1 class="preview-title">Explore the beauty of the World</h1>
-            <p class="preview-text">Receive personalized recommendations for countries, hotels, activities and more</p>
-            <div class="search">
-                <input type="text" placeholder="What would you like to do?" class="input">
-                <button class="search-button">Start Planning</button>
-
+<body class="body">
+    <header>
+        <section class="preview">
+            <div class="header">
+                    <nav class="logo">
+                    <img class="logo-img" src="/icon/logo.svg" alt="logo">
+                    <span class="logo-name">Travel Portal</span>
+                    </nav>
+                    <nav>
+                        <ul class="nav-list">
+                            <li class="nav-list-item"><a class="nav-list-item-text" href="#">How It Works</a></li>
+                            <li class="nav-list-item"><a class="nav-list-item-text" href="#">Plan Your Trip</a></li>
+                            <li class="nav-list-item"><a class="nav-list-item-text" href="#">Destinations</a></li>
+                            <li class="nav-list-item"><a class="nav-list-item-text" href="#">Travel Stories</a></li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="nav-button button">
+                        <span class="nav-button-text">Login</span>
+                    </button>
             </div>
-        
-        </div>
-
-    </section>
+            <div class="preview-element">
+                <h1 class="preview-title">Explore the beauty of the World</h1>
+                <p class="preview-text">Receive personalized recommendations for countries, hotels, activities and more</p>
+                <div class="search">
+                    <input type="text" placeholder="What would you like to do?" class="input">
+                    <button class="search-button button">Start Planning</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main-content">
+        <section class="steps">
+            <h2 class="steps-title">3 STEPS TO THE PERFECT TRIP</h2>
+            <div class="steps-content">
+                <div class="steps-content-item">
+                    <img src="/icon/First icon.svg" alt="icon" class="step-icon">
+                    <p class="steps-content-item">Tell us what you want to do</p>
+                </div>
+                <div class="steps-content-item">
+                    <img src="/icon/Second icon.svg" alt="icon" class="step-icon">
+                    <p class="steps-content-item">Share us preferable dates </p>
+                </div>
+                <div class="steps-content-item">
+                    <img src="/icon/Third icon.svg" alt="icon" class="step-icon">
+                    <p class="steps-content-item">We will give you recommendations</p>
+                </div>
+            </div>
+        </section>
+        <section class="destination">
+            <h2 class="destination-title">POPULAR DESTINATIONS</h2>
+            <div class="destination-country">
+                <div class="destination-item">
+                    <img src="/img/destination 1.jpg" alt="spain" class="destination-item-picture">
+                    <span class="destination-item-text">SPAIN</span>
+                </div>
+                <div class="destination-item">
+                    <img src="/img/desination 2.jpg" alt="japan" class="destination-item-picture">
+                    <span class="destination-item-text">JAPAN</span>
+                </div>
+                <div class="destination-item">
+                    <img src="/img/destination 3.jpg" alt="usa" class="destination-item-picture">
+                    <span class="destination-item-text">USA</span>
+                </div>
+            </div>
+            <div class="destination-dot">
+                <span class="dot-first"></span>
+                <span class="dot-second"></span>
+                <span class="dot-third"></span>
+            </div>
+            <button class="destination-button">
+                <img src="/icon/arrow.svg" alt="arrow" class="button-arrow">
+                <span class="button-text">Find More</span>
+            </button>
+        </section>
+    </main>
 </body>
 </html>
