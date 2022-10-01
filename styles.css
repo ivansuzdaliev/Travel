@@ -2,18 +2,16 @@
     max-width: 1440px;
     margin: auto;
     padding: 0px;
-}
-/* Preview section */
-.preview {
-    width: 1440px;
-    height: 765px;
-    background: url(/img/background-preview.jpg);
+    position: relative;
 }
 /* header */
 .header {
-    background-color: rgba(242, 120, 92, 0.7) ;
+    background: rgba(242, 120, 92, 0.7) ;
+    width: 1440px;
     height: 90px;
     display: flex;
+    position: absolute;
+    z-index: 100;
 }
 .logo {
     width: 216px;
@@ -65,12 +63,19 @@
     color: white;
     line-height: 21px;
 }
-/* preview element */
+/* preview */
+.preview {
+    width: 1440px;
+    height: 765px;
+    background: url(/img/background-preview.jpg);
+    position: relative;
+}
 .preview-element {
     width: 892px;
     height: 422px;
-    margin-top: 32px;
-    margin-left: 120px;
+    position: absolute;
+    top: 122px;
+    left: 120px;
 }
 .preview-title {
     font-family: Aleo, serif;
@@ -123,6 +128,11 @@
     color: white;
     line-height: 32px;
     cursor: pointer;
+}
+.bg-preview {
+    width: 1440px;
+    height: 765px;
+    background: url(/img/background-preview.jpg);
 }
 /* main */
 
@@ -246,4 +256,62 @@
     font-weight: 500;
     font-size: 24px;
     color: white;
+}
+/* section stories */
+.stories {
+    width: 1201px;
+    height: 1322px;
+    margin-top: 80px;
+    margin-left: 119px;
+}
+.stories-title {
+    text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #F2785C;
+}
+.stories-item.first {
+    margin-top: 80px;
+}
+.stories-item {
+    width: 1200px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 1px;
+    display: flex;
+}
+.stories-picture {
+    border-radius: 16px;
+}
+.stories-text {
+    margin-left: 40px;
+}
+.stories-text-title {
+    font-family: Aleo, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #0D606F;
+    margin: 0px;
+}
+.stories-text-content {
+    font: normal 400 20px Aleo,serif;
+    color: #0D606F;
+}
+.read-more-link {
+    font: normal 700 20px Aleo,serif;
+    color: #0D606F;
+}
+.stories-button {
+    width: 228px;
+    height: 59px;
+    margin-top: 40px;
+    margin-left: 489px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0D606F;
+    border: none;
 }
