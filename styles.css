@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .body {
     max-width: 1440px;
     margin: auto;
@@ -355,4 +358,12 @@
     width: 1445px;
     height: 1270px;
     background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* button */
+.button:hover {
+    filter: brightness(130%);
+}
+.button:active {
+    filter: brightness(80%);
 }
