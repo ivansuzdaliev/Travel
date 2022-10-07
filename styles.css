@@ -1,3 +1,6 @@
+* {
+    margin: 0px;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -6,6 +9,8 @@ html {
     margin: auto;
     padding: 0px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 /* header */
 .header {
@@ -69,6 +74,8 @@ html {
 /* main content */
 .main-content {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 /* preview */
 .preview {
@@ -168,13 +175,16 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }  
-.steps-content-item {
+.steps-content-item-text {
     font-family: Aleo, serif;
     font-size: 20px;
     font-weight: 400px;
     font-style: normal;
     color: #0D606F;
+    margin: 0px;
+    margin-top: 30px;
 }
 /* destination */
 .destination {
@@ -268,7 +278,6 @@ html {
 .stories {
     width: 1201px;
     height: 1322px;
-    margin-top: 80px;
     margin-left: 119px;
     position: absolute;
     top: 2311px;
@@ -307,6 +316,7 @@ html {
     margin: 0px;
 }
 .stories-text-content {
+    margin-top: 24px;
     font: normal 400 20px Aleo,serif;
     color: #0D606F;
 }
@@ -330,7 +340,6 @@ html {
     width: 729px;
     height: 34px;
     display: flex;
-    margin-top: 55px;
     margin-left: 590px;
     align-items: center;
     justify-content: space-between;
@@ -348,6 +357,7 @@ html {
 .footer-icon-list-item {
     margin-left: 20px;
 }
+/* background */
 .bg-2 {
     background: url(/img/bg\ 2.jpg);
     margin-top: 173px;
